@@ -63,8 +63,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(255, 0, 0);
-    border-color:rgba(255, 0, 0, 0.9);
+    color: hsl(0, 94%, 66%);
+    border-color:hsl(0, 94%, 66%);
     border-radius: 3px;
     padding: 10px 17px;
     font-size: 13px;
@@ -148,3 +148,59 @@ ul.show{
 }
 
 /* Fin de estilos Header */
+
+
+/* Main Styles */
+
+p{
+    color: hsl(229, 8%, 60%);
+    font-size: 18px;
+
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 18px;
+}
+
+/* First_container */
+
+.first_screen {
+    width: 100%;
+    text-align: end;
+}
+.first_text{
+    text-align: center;
+    padding: 0px 50px;
+}
+.first_text h1{
+    margin-bottom: 30px;
+    font-weight: 500;
+    margin-top: 1em;
+
+}
+.first_text p{
+    line-height: 1.6;
+}
+.btn_first_chrome{
+    background-color:  hsl(231, 69%, 60%);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 17px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.btn_first_firefox{
+    background-color:  hsl(0, 14%, 95%);
+    color: rgb(102, 98, 98);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 17px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 30px;
+    box-shadow: 0px 0px 8px gray;
+    font-family: 'Rubik', sans-serif;
+}
