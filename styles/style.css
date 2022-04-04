@@ -204,6 +204,8 @@ h2, h3, h4, h5, h6{
     font-family: 'Rubik', sans-serif;
 }
 /* Second Container */
+
+
 .second_container h2{
     margin-bottom: 30px;
     font-weight: 500;
@@ -219,8 +221,56 @@ h2, h3, h4, h5, h6{
 }
 
 .second_container button{
+    padding: 12px 0;
+    text-align: center;
     background: none;
     border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(102, 98, 98);
+}
+.second_container button:hover{
     border-bottom: 1px solid #ff0000;
-    
+    color: black;
+    transition: .4s;
+}
+.buttons{
+    margin: 6vh 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    /* border-width: 1px 0;
+    border-style: solid;
+    border-color: gray; */
+}
+.button_line{
+
+}
+
+/* Container drops */
+
+.img-drops{
+    width: 100%;
+}
+.card-body h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px ) {
+    .first_screen {
+        width: 1%;
+        background-color: #ff0000;
+    }
 }

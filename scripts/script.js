@@ -9,3 +9,61 @@ window.onload = function () {
         })
     }
 }
+
+let simple = document.getElementById('simple')
+let speedy = document.getElementById('speedy')
+let easy = document.getElementById('easy')
+let content = document.getElementById('insert_content')
+
+simple.addEventListener('click', () => {
+    content.innerHTML = ``
+    content.innerHTML += `<div class="container_drop">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <img class="img-card" src="../images/captura_boton_1.PNG"></img>
+                    <h5 class="card-title">Bookmark in one click</h5>
+                    <p class="card-text">organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>`
+})
+
+speedy.addEventListener('click', () => {
+    content.innerHTML = ``
+    content.innerHTML += `<div class="container_drop">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <img class="img-card" src="../images/captura_boton_2.PNG"></img>
+                    <h5 class="card-title">Intelligent Search</h5>
+                    <p class="card-text">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks</p>
+                    <button>More info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>`
+})
+
+easy.addEventListener('click', () => {
+    content.innerHTML = ``
+    content.innerHTML += `<div class="container_drop">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <img class="img-card" src="../images/captura_boton_3.PNG"></img>
+                    <h5 class="card-title">Share your bookmarks</h5>
+                    <p class="card-text">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                    <button>More info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>`
+})
