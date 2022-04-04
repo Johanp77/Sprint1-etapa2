@@ -324,6 +324,61 @@ h2, h3, h4, h5, h6{
 
 }
 
+/* End of Third Container styles */
+
+/* styles of the fourth container */
+
+.fourth_container h5 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fourth_container p{
+    line-height: 1.6;
+    text-align: center;
+    padding: 0px 4vh;
+}
+
+/* Estilos del acordeón */
+.acordeon{
+    min-height: 100px;
+    background-color: red;
+}
+
+.subapartado{
+    background-color: green;
+    min-height: 50px;
+    
+}
+.acordeon_titulo{
+    width: 80%; 
+    min-height: 50px;
+    overflow: hidden;
+    background-color: #24c06f;
+}
+.acordeon_titulo h4{
+    margin: 13px;
+}
+
+.info{
+    background-color: blue;
+    overflow: hidden;
+    height: 0px;
+    -webkit-transition: height 0.4s;
+}
+
+.info p{
+    margin: 20px;
+    text-align: center;
+    color: black;
+}
+div.subapartado:hover div.info{
+    height: 180px;
+    transition: .4s;
+}
+
+
 @media screen and (max-width: 1024px ) {
     .first_screen {
         width: 1%;
