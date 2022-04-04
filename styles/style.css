@@ -250,23 +250,79 @@ h2, h3, h4, h5, h6{
 
 /* Container drops */
 
+.container_drop{
+    margin-top: 5vh;
+}
+
 .img-drops{
-    width: 100%;
+    width: 100vh;
 }
 .card-body h5{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
 }
 
+.card-body p{
+    margin: 3vh;
+}
+.card-body button{
+    text-align: center;
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    color: #fff;
+    padding: 12px 17px;
+    border-radius: 5px;
+}
+.card-button{
+    text-align: center;
+}
+
+/* End of Container drops */
+
+/* Third container Styles */
+
+.third_container{
+    margin-top: 7vh;
+}
+.third_container h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.third_container p{
+    line-height: 1.6;
+    text-align: center;
+    padding: 0px 4vh;
+}
 
 
 
+.mini_containers div{
+    box-shadow: 0px 0px 8px rgb(197, 193, 193);
+    margin: 5vh 5vh;
+    text-align: center;
+}
+.mini_containers .navegador{
+    margin: 5vh 0;
+}
+.mini_containers h4{
+    margin-bottom: 1vh;
+}
 
+.mini_containers button{
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    color: #fff;
+    padding: 12px 19px;
+    border-radius: 5px;
+    font-size: 19px;
+    margin: 2vh 0;
+    font-family: 'Rubik', sans-serif;
 
-
-
+}
 
 @media screen and (max-width: 1024px ) {
     .first_screen {

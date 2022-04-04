@@ -39,10 +39,12 @@ speedy.addEventListener('click', () => {
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
-                    <img class="img-card" src="../images/captura_boton_2.PNG"></img>
+                    <img class="img-card" src="../images/captura_boton_2_peque.PNG"></img>
                     <h5 class="card-title">Intelligent Search</h5>
                     <p class="card-text">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks</p>
-                    <button>More info</button>
+                    <div class="card-button">
+                        <button>More info</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,10 +59,12 @@ easy.addEventListener('click', () => {
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
-                    <img class="img-card" src="../images/captura_boton_3.PNG"></img>
+                    <img class="img-card" src="../images/captura_boton_3_peque.PNG"></img>
                     <h5 class="card-title">Share your bookmarks</h5>
                     <p class="card-text">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
-                    <button>More info</button>
+                    <div class="card-button">
+                        <button>More info</button>
+                    </div>
                 </div>
             </div>
         </div>
