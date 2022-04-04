@@ -338,45 +338,59 @@ h2, h3, h4, h5, h6{
     line-height: 1.6;
     text-align: center;
     padding: 0px 4vh;
+    margin-bottom: 7vh;
 }
 
 /* Estilos del acordeón */
 .acordeon{
+    max-width: 100vh;
     min-height: 100px;
-    background-color: red;
+    align-items: center;
+    text-align: center;
 }
 
 .subapartado{
-    background-color: green;
     min-height: 50px;
-    
 }
 .acordeon_titulo{
-    width: 80%; 
+    width: 100%;
     min-height: 50px;
     overflow: hidden;
-    background-color: #24c06f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(197, 193, 193);
+}
+.acordeon_titulo img{
+    width: 2vh;
+    height: 1vh;
 }
 .acordeon_titulo h4{
     margin: 13px;
+    font-size: 25px;
+    font-weight: 400;
 }
-
 .info{
-    background-color: blue;
     overflow: hidden;
     height: 0px;
     -webkit-transition: height 0.4s;
 }
-
 .info p{
     margin: 20px;
     text-align: center;
-    color: black;
 }
 div.subapartado:hover div.info{
-    height: 180px;
+    height: 300px;
     transition: .4s;
 }
+@media screen and (max-width: 858px) {
+    .acordeon_titulo{
+        text-align: left;
+    }
+}
+
+
+/* End of acordeon styles */
 
 
 @media screen and (max-width: 1024px ) {
